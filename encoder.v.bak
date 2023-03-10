@@ -1,0 +1,37 @@
+module encoder(
+	input R0out,
+	input R1out,
+	input R2out,
+	input R3out,
+	input R4out,
+	input R5out,
+	input R6out,
+	input R8out,
+	input R9out,
+	input R10out,
+	input R11out,
+	input R12out,
+	input R13out,
+	input R14out,
+	input R15out,
+	input HiOut,
+	input LowOut,
+	input ZhighOut,
+	input ZlowOut,
+	input PCout,
+	input MDRout,
+	input In.PortOut,
+	input Cout,
+	output [4:0] S);
+
+	
+	if (R0out) begin
+		S0 <= 1'b1;
+	
+	
+	
+	
+	
+	endmodule
+	
+	

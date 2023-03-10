@@ -1,0 +1,9 @@
+module shr_32(
+	input wire [31:0] data_in,
+	input wire [31:0] shift_num,
+	output wire [31:0] data_out
+);
+
+	assign data_out[31:0] = data_in >> shift_num;
+	
+endmodule
